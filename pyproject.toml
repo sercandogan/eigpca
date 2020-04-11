@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "eigpca"
+version = "0.1.0"
+description = "Principal Component Analysis via eigen-decomposition of the covariance/correlation matrix"
+authors = ["Sercan Dogan <sercandogan@yandex.com>"]
+maintainers = ["Sercan Dogan <sercandogan@yandex.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/sercandogan/eigpca/"
+keywords = ["PCA",
+            "eigen-decomposition",
+            ]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.18.2"
+matplotlib = "^3.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.urls]
+issues = "https://github.com/sercandogan/eigpca/issues"
