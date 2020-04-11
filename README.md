@@ -19,7 +19,14 @@ pca.transform(X, n_components=2)
 ```
 ### Scree Plot
 ```python
+pca.plot(y="eig")
+```
+![Scree plot](examples/scree_plot_iris_eig.png)
+
+Y axes is proportion of variance 
+
+```python
 pca.plot(y="pov")
 ```
-![Scree plot](examples/scree_plot_iris.png)
+![Scree plot proportion of variance](examples/scree_plot_iris.png)
 
